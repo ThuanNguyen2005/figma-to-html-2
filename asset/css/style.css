@@ -39,7 +39,6 @@ button {
 .desc {
   color: #9da6a5;
   font-size: 1.8rem;
-  line-height: 1.77; /* 177.778% */
 }
 .hero-right .detail-label {
   color: #0d1111;
@@ -48,6 +47,17 @@ button {
 }
 .btn:hover {
   opacity: 0.8;
+}
+.mini-summary {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.title-lv2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33333; /* 133.333% */
 }
 /* <=====================header=================> */
 header {
@@ -130,8 +140,8 @@ header .header-body {
   align-self: center;
 }
 .hero-body .mini-summary {
-  color: #767e7e;
   font-size: 1.4rem;
+  font-weight: 400;
 }
 .hero-body .title-hero {
   color: #0d1111;
@@ -141,6 +151,7 @@ header .header-body {
   margin-top: 18px;
 }
 .hero-left .desc-hl {
+  line-height: 1.77; /* 177.778% */
   margin-top: 46px;
   max-width: 374px;
 }
@@ -245,4 +256,162 @@ header .header-body {
 }
 .hero-right .avatar-list .avatar {
   margin-left: -7px;
+}
+/* <=====================feature=================> */
+.feature .feature-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 169px;
+  width: 87.52%;
+}
+
+.feature-body .title-lv2 {
+  margin-top: 18px;
+  width: 56.34%;
+  max-width: 56.34%;
+}
+.feature-body .desc-feature {
+  margin-top: 18px;
+  max-width: 57.61%;
+  width: 57.61%;
+}
+.feature .feature-list {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  flex-shrink: 1;
+}
+.feature-list .desc-feature {
+  width: 33.33%;
+}
+.feature-list .detail-feature:first-of-type .desc-item {
+  max-width: 168px;
+}
+.feature-list .detail-feature:nth-of-type(2) .desc-item {
+  max-width: 223px;
+}
+.feature-list .detail-feature:nth-of-type(3) .desc-item {
+  max-width: 224px;
+}
+/* <=====================courses=================> */
+.courses .courses-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 90px;
+}
+.courses-body .desc-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.desc-view .desc-courses {
+  line-height: 1.77; /* 177.778% */
+}
+.desc-view a.view-all {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.courses-body .courses-list {
+  display: flex;
+  margin-top: 79px;
+  /* gap: 47px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.courses-list .courses-item {
+  min-width: 30.69%;
+  position: relative;
+  /* min-width: 359px; */
+}
+.courses-list .img-courses {
+  border-radius: 8px;
+  opacity: 0.7;
+  background: #d0efed;
+  /* width: 100%; */
+  object-fit: cover;
+  width: 359px;
+  height: 393px;
+}
+.courses-item .block-courses-item {
+  position: absolute;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+  left: 17px;
+  right: 17px;
+  bottom: -124px;
+}
+.block-courses-item a.title-courses {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  display: block;
+}
+.block-courses-item .wrap-detail {
+  padding-top: 18px;
+  padding-left: 25px;
+  padding-bottom: 29px;
+}
+.block-courses-item .block-fee {
+  margin-top: 16px;
+}
+.block-fee .fee-text {
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+.block-fee .fee {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.wrap-detail .desc-courses {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  margin-top: 6px;
+}
+.wrap-detail .courses-stat {
+  margin-top: 18px;
+}
+
+.courses-stat .detail-courses:nth-child(2) {
+  margin-left: 10px;
+}
+
+.courses-stat .detail-courses::before {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #1ebfc1;
+  border-radius: 999px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 2px;
+}
+.courses-stat span {
+  color: #9da6a5;
+  font-size: 1.4rem;
+}
+/* <=====================countdown=================> */
+.countdown .countdown-body {
+  padding: 30px auto 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 359px;
+  width: 73.67%;
+  display: flex;
+  justify-content: space-between;
+}
+.countdown-body strong.value {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+.countdown-body .desc {
+  text-align: center;
 }
