@@ -18,13 +18,16 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+button:hover {
+  opacity: 0.7;
+}
 .btn {
   color: #fff;
   display: inline-block;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
-  border-radius: 14px;
+  border-radius: 1.4rem;
   background: #1ebfc1;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
   padding: 20px 41px;
@@ -413,5 +416,176 @@ header .header-body {
   font-weight: 700;
 }
 .countdown-body .desc {
+  text-align: center;
+}
+/* <=====================feedback=================> */
+.feedback .feedback-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* <=====================feedback-left=================> */
+.feedback-body .feedback-left {
+  width: 35.82%;
+  min-width: 419px;
+}
+.feedback-body img.img-quote {
+  width: 36px;
+  height: 29px;
+}
+.feedback-body .desc {
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+  margin-top: 27px;
+}
+.feedback-body .sign strong {
+  font-weight: 500;
+}
+.feedback-body .sign {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+}
+.feedback-body .sign::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  margin-right: 5px;
+}
+.feedback-body .icon-button {
+  display: flex;
+  gap: 30px;
+  margin-top: 52px;
+}
+.icon-button button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #2ac9bf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* <=====================feedback-right=================> */
+.feedback-body .feedback-right {
+  width: 58.1%;
+  height: 481px;
+
+  position: relative;
+}
+.feedback-right .ava-fb {
+  position: absolute;
+  border-radius: 50%;
+}
+.feedback-right .ava-fb-1 {
+  left: 0;
+  top: 258px;
+}
+.feedback-right .ava-fb-2 {
+  left: 212px;
+  right: 389px;
+  bottom: 0;
+}
+.feedback-right .ava-fb-3 {
+  right: 32px;
+  bottom: 29px;
+}
+.feedback-right .ava-fb-4 {
+  left: 273px;
+  top: 107px;
+  bottom: 139px;
+  right: 171px;
+}
+.feedback-right .ava-fb-5 {
+  left: 144px;
+  right: 443px;
+  top: 0;
+}
+.feedback-right .ava-fb-6 {
+  right: 0;
+  top: 19px;
+  bottom: 352px;
+}
+.feedback-right .ava-fb-1 {
+  left: 0;
+  top: 258px;
+}
+/* <=====================cta-account=================> */
+.cta-account {
+  background: #def6f5;
+}
+.cta-account-body {
+  padding-top: 76px;
+  padding-bottom: 88px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cta-account-body .cta-text {
+  width: 35.9%;
+  min-width: 35.9%;
+}
+.cta-account-body .desc {
+  margin-top: 18px;
+}
+.cta-account-body .btn-cta {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cta-account-body button {
+  margin-right: 154px;
+}
+/* <=====================cta-account=================> */
+.footer-body .foot-list {
+  padding-top: 131px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.foot-item .title-foot {
+  min-width: 20%;
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.foot-item .link-block {
+  margin-top: 26px;
+}
+.link-block a.desc-foot {
+  color: #535353;
+  font-size: 1.6rem;
+  display: block;
+}
+.link-block .desc-foot + .desc-foot {
+  margin-top: 18px;
+}
+.link-block .be-social {
+  display: flex;
+  gap: 13px;
+}
+.link-block .be-social + .be-social {
+  margin-top: 18px;
+}
+.be-social .wrap-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: #fff;
+  object-fit: contain;
+}
+.footer-body .copyright {
+  margin-top: 80px;
   text-align: center;
 }
